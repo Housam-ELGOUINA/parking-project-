@@ -14,6 +14,7 @@ public class Main {
         PaymentMethod cash = new CashPayment();
 
         garage.checkout(car, 3, card);
+
         garage.checkout(bike, 2, cash);
         garage.checkout(truck, 4, card);
 
